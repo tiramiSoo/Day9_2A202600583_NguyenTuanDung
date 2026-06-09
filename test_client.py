@@ -15,8 +15,8 @@ load_dotenv()
 CUSTOMER_AGENT_URL = os.getenv("CUSTOMER_AGENT_URL", "http://localhost:10100")
 
 QUESTION = (
-    "If a company breaks a contract and avoids taxes, "
-    "what are the legal and regulatory consequences?"
+    "If a company breaks a contract, avoids taxes, violates SEC compliance rules, "
+    "and mishandles customer data, what are the legal, tax, and regulatory consequences?"
 )
 
 
